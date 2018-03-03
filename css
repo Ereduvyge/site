@@ -1,0 +1,422 @@
+body{
+    background-image:url(https://photoshop-master.ru/lessons/les2644/13.jpg);
+}
+
+
+div.logo{
+   position: absolute;
+   top:0px;
+   left: 30%;
+   width:40%;
+   height:10%;
+   background-color:#fce832;   
+}
+p.hatt{
+   text-align: center;
+   color:black;
+   font-size: 50px;
+   font-family:"Comic San MS", sans-serif;
+}
+
+div.VSH{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 31%;
+    height: 10%;
+    background-color:#fce832;
+}
+
+div.useful{
+    position: absolute;
+    top:0px;
+    left:69%;
+    width: 31%;
+    height:10%;
+    background-color:#fce832;
+}
+
+a.hattt{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+a:active{
+    color:red;
+}
+
+#hatc{
+    position: absolute;
+    top: 9%;
+    left:0px;
+    width:100%;
+    height: 1%;
+    background-color:white;
+}
+
+div.overlay{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 0.85;
+    z-index: 3;
+    display:none;
+}
+
+ span.x{
+   position: absolute;
+   top: 3%;
+   right: 3%;
+   width: 4%;
+   height: 4%;
+   font-size: 30 px;
+   display: block;
+   cursor: pointer;
+}
+
+/*ШАПКА*/
+ 
+
+ div.vk{
+    position: absolute;
+    top:200%;
+    left: 0px;
+    width: 20%;
+    height: 5%;
+    cursor: pointer;
+ }
+ 
+ div.yt{
+    position: absolute;
+    top:200%;
+    left: 20%;
+    width: 20%;
+    height: 5%;
+    cursor: pointer;
+ }
+ 
+ div.sub{
+    position: absolute;
+    top: 200%;
+    left: 40%;
+    width: 20%;
+    height: 5%;
+    cursor: pointer;
+ }
+ 
+ div.fb{
+    position: absolute;
+    top:200%;
+    right: 20%;
+    width:20%;
+    height: 5%;
+    cursor: pointer;
+ }
+ 
+ div.tw{
+    position: absolute;
+    top:200%;
+    right:0px;
+    width: 20%;
+    height: 5%;
+    cursor: pointer;
+ }
+ 
+ p.under{
+    text-align: center;
+    font-size:30px;
+    color:#fce832;
+    font-family: "Comic San MS", sans-serif;
+ }
+ 
+ div.rights{
+    position: absolute;
+    top: 205%;
+    left: 0px;
+    width: 100%;
+    height: 5%;
+ }
+ 
+
+/*НИЗ*/
+
+header{
+   position: absolute;
+   top:10%;
+   left:0px;
+   width:100%;
+   height:25%;
+}
+
+h1{
+   text-align:center;
+   font-size:100px;
+   color:#fce832;
+   font-family: Impact, Bookman;
+}
+
+div.preview{
+    position:absolute;
+    top:35%;
+    left:0px;
+    width:100%;
+    height:65%;
+    background-image: url(http://static9.cdn.ubisoft.com/resource/en-US/game/southpark/thefracturedbutwhole/spfbw-og-meta-image.jpg);
+}
+
+ div.next{
+    position: absolute;
+    top:65%;
+    right:0px;
+    width:5%;
+    height:5%;
+    border-radius: 30%;
+    background-color: #fce832;
+    cursor: pointer;
+}
+
+div.back{
+    position: absolute;
+    top:65%;
+    left:0px;
+    width:5%;
+    height:5%;
+    border-radius:30%;
+    background-color: #fce832;
+    cursor: pointer;
+}
+
+ p.but{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+ }
+
+div.trailer{
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    width: 220px;
+    height:220px;
+    border-radius: 50%;
+    background-color:orange;
+    cursor: pointer;
+}
+
+ div.trailer_window{
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 10px solid black;
+    border-radius: 10%;
+    background-color: orange;
+    z-index:5;
+    display: none; 
+ }
+ 
+ iframe.trailer_youtube{
+    position: absolute;
+    top:30%;
+    left: 34%;
+    width: 560px; 
+    height: 315px;
+    border: 8px solid black;
+    border-radius: 10%;
+ }
+ 
+  div.trailer_comment{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: 80%;
+    height: 30%;
+  }
+
+ div.story{
+    position: absolute;
+    top: 105%;
+    right: 10%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color:orange;
+    cursor: pointer;
+ }
+ 
+ div.story_window{
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 10px solid black;
+    border-radius: 10%;
+    background-color: orange;
+    z-index:5;
+    display: none;  
+ }
+ 
+ div.news{
+    position: absolute;
+    top: 105%;
+    left: 45%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color:orange;
+    cursor: pointer;
+ } 
+ 
+ div.news_window{
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 10px solid black;
+    border-radius: 10%;
+    background-color: orange;
+    z-index:5;
+    display: none; 
+ }
+ 
+ form.news_subscription{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    height: 25%;
+    cursor: text;
+ }
+ 
+ div.news_why{
+    position: absolute;
+    bottom:5%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+ }
+ 
+ p.circle{
+    text-align: center;
+    color: #fce832;
+    font-size: 50px;
+    font-family:"Comic San MS", sans-serif;
+ }
+ 
+ div.perfomance{
+     position: absolute;
+     top:120%;
+     left:0px;
+     width:100%;
+     height:10%;  
+ }
+ p.perfomancee{
+     text-align: center;
+     color:#fce832;
+     font-size: 55px;
+     font-family: Impact, Bookman;
+ }
+ 
+ 
+ div.fartator{
+      position: absolute;
+      left:0px;
+      top:132%;
+      width:22%;
+      height:38%;
+      background-color:orange; 
+ }
+ div.pinkmonster{
+      position: absolute;
+      left:22%;
+      top:132%;
+      width:22%;
+      height:38%;
+      background-color:black; 
+ }
+ 
+ div.line{
+      position: absolute;
+      left:44%;
+      top:132%;
+      width:12%;
+      height:38%;
+      background-image:url(http://www.coolday.by/wp-content/uploads/2015/08/4elovek_molni9.png);
+ }
+ 
+ div.theanimal{
+      position: absolute;
+      left:56%;
+      top:132%;
+      width:22%;
+      height:38%;
+      background-color:black; 
+ }
+ div.eructer{
+      position: absolute;
+      left:78%;
+      top:132%;
+      width:22%;
+      height:38%;
+      background-color:orange; 
+ }
+ 
+ div.timetoplay{
+      position: absolute;
+      left: 0px;
+      top:170%;
+      width:100%;
+      height:10%
+ }
+ p.timetoplayy{
+      text-align: center;
+      color:#fce832;
+      font-size: 55px;
+      font-family: Impact, Bookman;
+ }
+ 
+ 
+ 
+  div.github{
+      position: absolute;
+      left:0px;
+      top: 180%;
+      width: 50%;
+      height: 20%;
+      background-color: orange;
+  }
+  
+  a.githubb{
+      text-decoration: none;
+      color: #fce832;
+      cursor:pointer;
+  }
+  
+  a:active{
+      color:red;
+  }
+  
+  div.apk{
+      position: absolute;
+      right:0px;
+      top: 180%;
+      width:50%;
+      height: 20%;
+      background-color: white;
+  }
+  
+  p.game{
+      text-align: center;
+      font-size:70px;
+      color: #fce832;
+      font-family: Impact, Bookman;
+  }
+  
+  
